@@ -1,0 +1,10 @@
+[submodule "Libraries/GLFW_Library/glfw"]
+	path = Libraries/GLFW_Library/glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "Libraries/GoogleTest_Library/googletest"]
+	path = Libraries/GoogleTest_Library/googletest
+	url = https://github.com/google/googletest.git
+[submodule "Libraries/ImGui_Library/imgui"]
+	path = Libraries/ImGui_Library/imgui
+	url = https://github.com/ocornut/imgui.git
+	branch = docking
