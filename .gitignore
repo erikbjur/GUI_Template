@@ -1,0 +1,14 @@
+# Imgui files
+imgui.ini
+
+#Apple / mac
+.ds_store
+
+# CMake Build folder
+/build
+
+# bin directory
+/bin
+
+# CMake Cache directory
+/.cache
