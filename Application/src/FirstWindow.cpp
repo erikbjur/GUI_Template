@@ -18,6 +18,7 @@ void App::ShowFirstWindow( Data::DataStore& dataStore,  bool& show_this_window )
       ImGui::Text( "Add a new Entity" );
       if( ImGui::Button( "Add" ) ) {
          // Add a new entity
+         dataStore.AddEntity()->Age = 16;
       }
 
       if( ImGui::BeginTable( "Table of Entities", 3, flags ) ) {
